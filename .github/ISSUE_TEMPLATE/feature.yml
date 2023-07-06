@@ -3,14 +3,13 @@ name: Feature Request
 about: Suggest a new feature or enhancement for the REMIND model.
 title: '[FEATURE REQUEST]'
 labels: enhancement
-assignees: ''
-
+assignees: 
+  - 'whitehacker'
 body:
 - type: markdown
   attributes:
     value: |
       Thanks for taking the time to suggest a new feature or enhancement!
-
 - type: input
   id: feature-summary
   attributes:
@@ -19,7 +18,6 @@ body:
     placeholder: 'e.g., Add a new model parameter to handle X...'
   validations:
     required: true
-
 - type: textarea
   id: feature-benefit
   attributes:
@@ -28,7 +26,6 @@ body:
     placeholder: 'This feature would improve...'
   validations:
     required: true
-
 - type: textarea
   id: feature-details
   attributes:
@@ -37,7 +34,6 @@ body:
     placeholder: 'The feature works by...'
   validations:
     required: true
-
 - type: checkboxes
   id: terms
   attributes:
