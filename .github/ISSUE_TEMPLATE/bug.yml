@@ -17,6 +17,16 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: checkboxes
+  id: checklist
+  attributes:
+    label: Please confirm the following
+    description: Please check the relevant boxes.
+    options:
+      - label: I have searched the existing issues
+      - label: I have provided detailed information about the bug
+      - label: I have provided steps to reproduce the issue
+      - label: I have provided information about my environment (OS, browser, etc.)
   - type: textarea
     id: what-happened
     attributes:
