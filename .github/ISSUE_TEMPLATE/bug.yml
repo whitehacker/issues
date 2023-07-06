@@ -23,10 +23,12 @@ body:
       label: Please confirm the following
       description: Please check the relevant boxes.
       options:
+        - label: I have access to the PIK cluster
+        - label: I have access to the Input Data
         - label: I have searched the existing issues
         - label: I have provided detailed information about the bug
         - label: I have provided steps to reproduce the issue
-        - label: I have provided information about my environment (OS, browser, etc.)
+        - label: I have provided information about my environment (OS)
   - type: textarea
     id: what-happened
     attributes:
