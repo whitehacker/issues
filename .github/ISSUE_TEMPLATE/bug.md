@@ -53,4 +53,6 @@ body:
   attributes:
     label: Environment (e.g., OS, Browser, Version)
     description: Please provide any relevant details about the environment where the bug occurred.
-  validations
+  validations:
+    required: true
+---
