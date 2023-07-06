@@ -3,6 +3,7 @@ description: This template is for reporting bugs found in the REMIND model
 title: "[Bug]: "
 labels: ["bug", "remind"]
 assignees:
+  - whitehacker
 body:
   - type: markdown
     attributes:
