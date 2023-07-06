@@ -5,12 +5,13 @@ title: '[BUG]'
 labels: bug
 assignees: ''
 body:
-- type: input
-  id: issue-summary
+- type: checkboxes
+  id: cat-preferences
   attributes:
-    label: Bug Summary
-    description: Provide a brief summary of the issue you're experiencing.
-    placeholder: 'e.g., Model fails to generate a correct output when input X is provided.'
-  validations:
-    required: true
+    label: What kinds of cats do you like?
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
+      - label: **Black cat**
 ---
