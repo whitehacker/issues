@@ -1,5 +1,5 @@
 name: Bug Report
-description: This template is for reporting bugs found in the REMIND model
+description: This template is for reporting bugs found in the REMIND model. We welcome bug reports and will work to fix them quickly. Support for setting up and running REMIND outside PIK is limited.
 title: "[Bug]: "
 labels: ["bug", "remind"]
 assignees:
